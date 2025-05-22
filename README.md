@@ -21,3 +21,5 @@ The scores of each system are separated by one line starting with a '#' sign, fo
 
 Each line in the file corresponds to one text. Each line is a string with the format 'Grammaticality: {score} Fluency: {score}'
 The order of scores follows the order of texts in the dataset. 
+
+For information about the MultiGEC dataset, see their website: https://spraakbanken.gu.se/en/resources/multigec
