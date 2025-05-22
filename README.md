@@ -11,13 +11,13 @@ For English, the structure is similar, but not the entire test set is used. Inst
 
 The scores of each system are separated by one line starting with a '#' sign, followed by the name of the system and the track it participated in ('min' for minimal edits, 'flu' for fluency edits), if applicable. These lines are as follows:
 
-\# ORIGINAL
-\# LATTICE
-\# RUMCULL-MIN
-\# RUMCULL-FLU
-\# UAM-CSI-MIN
-\# UAM-CSI-FLU
-\# REFERENCE
+\#ORIGINAL
+\#LATTICE
+\#RUMCULL-MIN
+\#RUMCULL-FLU
+\#UAM-CSI-MIN
+\#UAM-CSI-FLU
+\#REFERENCE
 
 Each line in the file corresponds to one text. Each line is a string with the format 'Grammaticality: {score} Fluency: {score}'
 The order of scores follows the order of texts in the dataset. 
